@@ -1,0 +1,57 @@
+site_name: vpsAdminOS
+site_url: https://vpsadminos.org/
+theme: readthedocs
+extra_css: ['extra.css']
+nav:
+- Home: 'index.md'
+- User Guide:
+    - Introduction: 'user-guide/introduction.md'
+    - Setup: 'user-guide/setup.md'
+    - Containers: 'user-guide/containers.md'
+    - Networking: 'user-guide/networking.md'
+    - Resources: 'user-guide/resources.md'
+    - Mounts: 'user-guide/mounts.md'
+- Containers:
+    - User namespaces: 'containers/user-namespaces.md'
+    - Administration: 'containers/administration.md'
+    - Datasets: 'containers/datasets.md'
+    - Auto starting: 'containers/auto-starting.md'
+    - Start menu: 'containers/start-menu.md'
+    - Resources: 'containers/resources.md'
+    - Devices: 'containers/devices.md'
+    - 'Export/Import': 'containers/export-import.md'
+    - 'Send/Receive': 'containers/send-receive.md'
+    - Declarative: 'containers/declarative.md'
+- Networking:
+    - Bridged veth: 'networking/veth-bridge.md'
+    - Routed veth: 'networking/veth-routed.md'
+- Container Images:
+    - Using images: 'container-images/usage.md'
+    - Creating images: 'container-images/creating.md'
+    - Repositories: 'container-images/repositories.md'
+- vpsAdminOS:
+    - Configuration: 'os/configuration.md'
+    - Installation: 'os/installation.md'
+    - Updates: 'os/updates.md'
+    - Deployment: 'os/deployment.md'
+    - Runlevels: 'os/runlevels.md'
+    - 'Kernel parameters': 'os/kernel-parameters.md'
+    - Pools: 'os/pools.md'
+    - 'Control groups': 'os/cgroups.md'
+    - Shell history: 'os/shell-history.md'
+    - Testing: 'os/testing.md'
+- Services:
+    - Docker: 'services/docker.md'
+    - Snappy: 'services/snappy.md'
+- Migration Paths:
+    - Converter: 'migration-paths/converter.md'
+    - OpenVZ Legacy: 'migration-paths/openvz-legacy.md'
+- osctld:
+    - Distribution support: 'osctld/distributions.md'
+    - cgroups: 'osctld/cgroups.md'
+    - Interfaces: 'osctld/interfaces.md'
+    - Development: 'osctld/development.md'
+- Specifications:
+    - Container image: 'specifications/container-image.md'
+    - Image repository: 'specifications/image-repository.md'
+    - Distributions: 'specifications/distributions.md'
